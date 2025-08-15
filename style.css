@@ -959,16 +959,98 @@
   justify-content: center;
   align-items: center;
 }
-.daldaa{aspect-ratio: 768/650;
-display: none;}
+.daldaa {
+  aspect-ratio: 768/650;
+  display: none;
+}
+
+@media only screen and (max-width: 1600px) {
+  .pro16 {
+    font-size: 42px;
+  }
+  .pro {
+    font-size: 20px;
+  }
+  .flexi1 {
+    height: 50px;
+  }
+  .flexi3 {
+    margin-top: 10px;
+  }
+  .flex {
+    margin-top: 40px;
+  }
+  .flex500 {
+    margin-top: 40px;
+  }
+  .gift {
+    font-size: 42px;
+  }
+  .gift2 {
+    font-size: 21px;
+  }
+  .medku {
+    gap: 10px;
+  }
+  .medku1 {
+    height: 50px;
+  }
+  .medku {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .pro16 {
+    font-size: 42px;
+  }
+  .pro {
+    font-size: 20px;
+  }
+  .flexi1 {
+    height: 50px;
+  }
+  .flexi3 {
+    margin-top: 10px;
+  }
+  .flex {
+    margin-top: 20px;
+  }
+  .flex500 {
+    margin-top: 20px;
+  }
+  .gift {
+    font-size: 42px;
+  }
+  .gift2 {
+    font-size: 21px;
+  }
+  .medku {
+    gap: 10px;
+  }
+  .medku1 {
+    height: 50px;
+  }
+  .medku {
+    margin-bottom: 20px;
+  }
+}
 
 @media only screen and (max-width: 1000px) {
-  .daldaa{display: block;}
+  .daldaa {
+    display: block;
+  }
   .hero1000 {
     display: none;
   }
   .text {
     display: none;
+  }
+  .flex {
+    margin-top: 70px;
+  }
+  .flex500 {
+    margin-top: 70px;
   }
   .zuraag {
     display: block;
@@ -1059,9 +1141,15 @@ display: none;}
   .saa23 {
     gap: 15px;
   }
-  .zegii{aspect-ratio: 366/490;}
-  .zugii{aspect-ratio: 366/490;}
-  .zugii22{aspect-ratio: 366/490;}
+  .zegii {
+    aspect-ratio: 366/490;
+  }
+  .zugii {
+    aspect-ratio: 366/490;
+  }
+  .zugii22 {
+    aspect-ratio: 366/490;
+  }
 }
 @media only screen and (max-width: 600px) {
   .text {
@@ -1108,7 +1196,7 @@ display: none;}
     width: 90px;
     height: 27px;
   }
-  
+
   .boogii11 {
     font-size: 14px;
   }
@@ -1116,15 +1204,18 @@ display: none;}
     width: 56px;
     height: 28px;
   }
-  .boogii1{
+  .boogii1 {
     font-size: 10px;
   }
-  .boogii2{font-size: 10px;}
-  .boogii11{
+  .boogii2 {
     font-size: 10px;
   }
-  .boogii22{font-size: 10px;}
-
+  .boogii11 {
+    font-size: 10px;
+  }
+  .boogii22 {
+    font-size: 10px;
+  }
 
   .flexi1 {
     height: 36px;
@@ -1135,7 +1226,6 @@ display: none;}
   .flexi3 {
     height: 36px;
   }
-  
 
   .hero {
     margin-bottom: 0;
@@ -1144,8 +1234,7 @@ display: none;}
     justify-content: center;
     margin-top: 0;
   }
-  
-  
+
   .hero1000 {
     display: none;
   }
@@ -1269,10 +1358,14 @@ display: none;}
   .garii {
     display: block;
   }
-  .daldaa{display: none;
-  object-fit: cover;}
-  .tompro11{display: none;}
-  .tompro23{display: none;}
-  
-  
+  .daldaa {
+    display: none;
+    object-fit: cover;
+  }
+  .tompro11 {
+    display: none;
+  }
+  .tompro23 {
+    display: none;
+  }
 }
